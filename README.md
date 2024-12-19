@@ -27,7 +27,7 @@ Make sure you have the following tools installed:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/react-filerobot-starter.git
+   git clone httpsgithub.com/shxvang/filerobot-react-noor
    cd react-filerobot-starter
    ```
 
@@ -45,7 +45,7 @@ Make sure you have the following tools installed:
    yarn dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to see the app in action.
+4. Open your browser and navigate to `[http://localhost:5173](http://localhost:5173/)` to see the app in action.
 
 ---
 
@@ -77,29 +77,7 @@ react-filerobot-starter/
 
 ---
 
-## How to Use Filerobot Image Editor
 
-The Filerobot Image Editor is pre-integrated into the starter kit. To use it, import and integrate it into your components:
-
-```jsx
-import React from 'react';
-import { FilerobotImageEditor } from 'filerobot-image-editor';
-
-const ImageEditor = () => {
-  return (
-    <FilerobotImageEditor
-      config={{
-        tools: ['crop', 'rotate', 'filters'],
-      }}
-      src="https://example.com/sample-image.jpg"
-    />
-  );
-};
-
-export default ImageEditor;
-```
-
----
 
 ## Contributing
 
