@@ -73,7 +73,8 @@ function App() {
           }}
           tabsIds={[TABS.ADJUST, TABS.ANNOTATE, TABS.FILTERS
 
-          ]} // or {['Adjust', 'Annotate', 'Watermark']}
+
+          ]} 
           defaultTabId={TABS.ANNOTATE} // or 'Annotate'
           defaultToolId={TOOLS.TEXT} // or 'Text'
         />
