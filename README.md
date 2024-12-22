@@ -1,6 +1,6 @@
-# filerobot-react-noor
+# filerobot-react-tauri-noor
 
-Welcome to the **React Filerobot Starter Kit**! 🚀 This starter kit provides a robust foundation for building React-based applications with the **Filerobot Image Editor** integrated. Leveraging **Vite** for fast development and the **SWC (Speedy Web Compiler)** for optimized builds, this kit ensures blazing-fast performance and a seamless development experience.
+Welcome to the **Tauri-React Filerobot Starter Kit**! 🚀 This starter kit provides a robust foundation for building React-based applications with the **Filerobot Image Editor** integrated. Leveraging **Vite** for fast development, **SWC (Speedy Web Compiler)** for optimized builds, and **Tauri** for building desktop applications, this kit ensures blazing-fast performance and a seamless development experience.
 
 ---
 
@@ -9,6 +9,7 @@ Welcome to the **React Filerobot Starter Kit**! 🚀 This starter kit provides a
 - 🌟 **Filerobot Image Editor**: A lightweight and powerful image editor with essential tools for image manipulation.
 - ⚡ **Vite**: Lightning-fast development server with hot module replacement (HMR).
 - 🚀 **SWC**: A super-fast JavaScript and TypeScript compiler for optimized builds.
+- 🔹 **Tauri**: Build smaller, faster, and more secure desktop applications.
 - 🎯 **React**: Modern UI framework for building scalable, maintainable applications.
 - 📦 Out-of-the-box configuration to get started quickly.
 
@@ -22,6 +23,7 @@ Make sure you have the following tools installed:
 
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Rust](https://www.rust-lang.org/) (required for Tauri)
 
 ### Installation
 
@@ -60,6 +62,7 @@ react-filerobot-starter/
 │   ├── App.jsx        # Main app component
 │   ├── main.jsx       # Application entry point
 │   └── styles/        # Global and component-specific styles
+├── src-tauri/         # Tauri-specific files and configurations
 ├── vite.config.js     # Vite configuration file
 ├── package.json       # Project metadata and dependencies
 ├── README.md          # Project documentation
@@ -72,12 +75,12 @@ react-filerobot-starter/
 
 - **`npm run dev`**: Start the development server.
 - **`npm run build`**: Build the app for production using SWC.
+- **`npm run tauri dev`**: Start the Tauri development environment.
+- **`npm run tauri build`**: Build the Tauri desktop application.
 - **`npm run preview`**: Preview the production build.
 - **`npm run lint`**: Lint the codebase for potential issues.
 
 ---
-
-
 
 ## Contributing
 
@@ -114,5 +117,6 @@ This project is licensed under the [MIT License](./LICENSE).
 - [Vite](https://vitejs.dev/)
 - [SWC](https://swc.rs/)
 - [React](https://reactjs.org/)
+- [Tauri](https://tauri.app/)
 
 Happy coding! 🎨
