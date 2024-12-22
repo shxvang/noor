@@ -1,6 +1,7 @@
 ![NO OR](https://github.com/user-attachments/assets/1b3dc889-22e2-43ac-a78a-a8c5ae05d716)
 
-# filerobot-react-tauri-noor
+# noor
+
 
 Welcome to the **Tauri-React Filerobot Starter Kit**! 🚀 This starter kit provides a robust foundation for building React-based applications with the **Filerobot Image Editor** integrated. Leveraging **Vite** for fast development, **SWC (Speedy Web Compiler)** for optimized builds, and **Tauri** for building desktop applications, this kit ensures blazing-fast performance and a seamless development experience.
 
