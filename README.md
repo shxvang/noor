@@ -32,8 +32,8 @@ Make sure you have the following tools installed:
 
 1. Clone this repository:
    ```bash
-   git clone httpsgithub.com/shxvang/filerobot-react-noor
-   cd react-filerobot-starter
+   git clone httpsgithub.com/shxvang/noor
+   cd noor
    ```
 
 2. Install dependencies:
@@ -57,7 +57,7 @@ Make sure you have the following tools installed:
 ## Project Structure
 
 ```plaintext
-react-filerobot-starter/
+noor/
 ├── public/            # Static assets
 ├── src/
 │   ├── components/    # Reusable React components
